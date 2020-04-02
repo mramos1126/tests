@@ -1,0 +1,318 @@
+
+body{
+font-family: monospace;
+overflow-y: scroll; overflow-x:hidden;
+background-color: green;
+
+}
+
+
+
+/* nav-bar */
+
+#navimg{
+position: relative;
+float: left;
+	height: 55px;
+	width: 100px;
+image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+
+
+
+/* event section*/
+#events{
+margin: auto;
+top: 30px;
+  position: relative;
+ 
+  width: 50%;
+}
+
+#poster{
+   
+ left: 0;
+  right: 0;
+  position: relative;
+display:block;
+   
+padding: 10px;
+
+ 
+
+  width: 100%; 
+height: 400px;
+    
+}
+
+#tickets{
+background: rgba(0, 0, 0, 0.5);
+position: relative;
+font-size: 12px;
+    border: 3px solid white ;
+color: white;
+text-align: center;
+height: 50%;
+  width: 45%;
+margin: auto;
+top: 30px;
+
+}
+.unstyled{
+list-style-type: none;
+}
+
+#contact{
+font-size: 12px;
+background: rgba(0, 0, 0, 0.5) ;
+position: relative;
+    border: 3px solid white ;
+text-align: center;
+color: white;
+height: 50%;
+  width: 45%;
+margin: auto;
+ top: 30px;
+ 
+  }
+/* champions */
+
+
+
+#champs{
+overflow: hidden;
+
+ margin: auto;
+    width: 60%;
+height: 100%;
+position: relative;
+overflow:auto;
+
+
+top: 30px;
+
+}
+
+#headerroster{
+color: white;
+text-align: center;
+margin-top: 60px;
+font-size: 25px;
+
+    background-color:black;
+   
+}
+.champtitle{
+
+   width: 250px;
+   height: 270px;
+color: white;
+background-color: black;
+   position: relative;
+text-align: center;
+
+margin-left:auto;
+margin-right:auto;
+margin-top:25px;
+
+}
+
+
+
+.rosterpics{
+height: 230px;
+width: 270px;
+
+
+}
+
+#leftpics{
+ margin: auto;
+    width: 60%;
+
+position: relative;
+}
+
+#rightpics{
+position: relative;
+  margin: auto;
+   
+    width: 60%; 
+
+
+}
+
+
+.wrestlerName{
+  position: absolute;
+ top: 0px;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+  background: rgba(100, 100, 100, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.champtitle:hover .wrestlerName {
+  visibility: visible;
+  opacity: 1;
+
+}
+.spanName{
+position: absolute;
+  color: white;
+bottom: -25px;
+position: relative;
+}
+
+ .spanIcon{
+;
+color: purple;
+bottom: -80px;
+margin: 5px;
+width: 100px;
+position: relative;
+}
+
+#headerroster{
+font-size: 30px;
+color: white;
+text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* contact */
+#contact{
+background-repeat: repeat-y;
+ background-size: 100% 100%;
+
+background-image: url(assets/images/messageimg.jpg);
+}
+.contact{
+top: 150px;
+margin: auto;
+  width: 400px;
+color: white;
+    border: 3px solid #808080 ;
+padding: 10px;
+position: relative;
+background: rgba(200, 54, 54, 0.5); 
+
+height: 400px;
+
+
+}
+
+form
+{
+
+
+
+width: 350px;
+
+
+position: relative;
+
+
+}
+label{
+  
+color: white;
+}
+#logocontact {
+
+position: relative;
+text-align: center;
+
+}
+.modal-header{
+
+background-color : blue;
+color : white;
+text-align : center;
+}
+.modal-body{
+text-align : center;
+}
+.close {
+color: #fff;
+opacity: 1;
+}
+.modal-header{
+
+background-color : blue;
+color : white;
+text-align : center;
+}
+.modal-body{
+text-align : center;
+color: black;
+}
+.close {
+color: #fff;
+opacity: 1;
+}
+/* footer section */
+
+
+
+#footernote{
+color: white;
+bottom: -10px;
+position: relative;
+text-align: center;
+font-size: 10px;
+}
+
+
+
+
+.icon{
+position: relative;
+
+padding : 10px;
+ overflow: hidden;
+   left: 45%;
+   right: 40%;
+ display: inline;;
+
+  bottom: -10px
+  }
+
+
+
+
